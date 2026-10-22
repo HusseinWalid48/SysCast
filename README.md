@@ -2,14 +2,14 @@
 
 # ⚡ SysCast Telemetry
 **Ultra-low latency PC hardware monitor streamed directly to your mobile browser.**
-<img width="1114" height="588" alt="Screenshot 2026-10-22 192955" src="https://github.com/user-attachments/assets/697bae74-5ae8-4a1b-8719-fc51bd7eacc9" />
-<img width="1919" height="936" alt="Screenshot 2026-10-22 193113" src="https://github.com/user-attachments/assets/9163c73b-04ec-4b8b-9351-6bfad6cd94f2" />
 
 [![Latest Release](https://img.shields.io/badge/Download-v1.0.0--Beta-b45cff?style=for-the-badge&logo=github)](https://github.com/HusseinWalid48/SysCast/releases/latest)
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows)](#)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
 [![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](#)
 
+<img width="1114" height="588" alt="Screenshot 2026-10-22 192955" src="https://github.com/user-attachments/assets/697bae74-5ae8-4a1b-8719-fc51bd7eacc9" />
+<img width="1919" height="936" alt="Screenshot 2026-10-22 193113" src="https://github.com/user-attachments/assets/9163c73b-04ec-4b8b-9351-6bfad6cd94f2" />
 *No mobile apps. No user accounts. No cables. Just scan and play.*
 
 </div>
