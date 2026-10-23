@@ -1,7 +1,7 @@
 <div align="center">
 
 <pre>
-███████╗██╗   ██╗███████╗ ██████╗ █████╗ ███████╗████████╗
+███████╗██╗  ██╗███████╗ ██████╗ █████╗ ███████╗████████╗
 ██╔════╝╚██╗ ██╔╝██╔════╝██╔════╝██╔══██╗██╔════╝╚══██╔══╝
 ███████╗ ╚████╔╝ ███████╗██║     ███████║███████╗   ██║   
 ╚════██║  ╚██╔╝  ╚════██║██║     ██╔══██║╚════██║   ██║   
@@ -30,11 +30,11 @@
 
 ## 🔥 Key Features
 
-* 📱 **Instant Mobile Dashboard:** Turn any phone or tablet into a dedicated hardware screen for FPS, Frametime, CPU, GPU, and RAM.
-* 🔆 **Interactive "Always Awake" Toggle:** Built-in Wake Lock button right on the mobile screen to prevent your phone from locking mid-game.
-* ⚡ **20Hz Ultra-Fast Polling:** Streams telemetry 20 times per second via WebSockets for zero-lag monitoring.
-* 🛡️ **VPN-Proof Network Detection:** Automatically detects your true local Wi-Fi IP address, bypassing virtual VPN adapters.
-* 👻 **Stealth Tray Mode:** Hide the console window to your Windows System Tray with a single keypress.
+- 📱 **Instant Mobile Dashboard:** Turn any phone or tablet into a dedicated hardware screen for FPS, Frametime, CPU, GPU, and RAM.
+- 🔆 **Interactive "Always Awake" Toggle:** Built-in Wake Lock button right on the mobile screen to prevent your phone from locking mid-game.
+- ⚡ **20Hz Ultra-Fast Polling:** Streams telemetry 20 times per second via WebSockets for zero-lag monitoring.
+- 🛡️ **VPN-Proof Network Detection:** Automatically detects your true local Wi-Fi IP address, bypassing virtual VPN adapters.
+- 👻 **Stealth Tray Mode:** Hide the console window to your Windows System Tray with a single keypress.
 
 ---
 
@@ -88,17 +88,17 @@ If you prefer to inspect the code, modify the dashboard UI, or compile the execu
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/HusseinWalid48/SysCast.git](https://github.com/HusseinWalid48/SysCast.git)
+git clone https://github.com/HusseinWalid48/SysCast.git
 cd SysCast
 
 # 2. Install required Python libraries
 pip install fastapi uvicorn websockets psutil qrcode pillow pystray
 
 # 3. Run the script directly
-python SysCast.py
+python main.py
 
 # 4. Compile to a standalone .exe (Optional)
-python -m pyinstaller --onefile SysCast.py
+python -m pyinstaller --onefile main.py
 ```
 </details>
 
@@ -106,9 +106,9 @@ python -m pyinstaller --onefile SysCast.py
 <summary><b>❓ Troubleshooting / FAQ (Click to Expand)</b></summary>
 <br>
 
-* **My phone won't connect after scanning the QR code?**
+- **My phone won't connect after scanning the QR code?**
   Make sure both your PC and phone are on the exact same local network (e.g., PC on Ethernet and Phone on the same router's Wi-Fi). If Windows Firewall pops up on first launch, make sure to click **Allow Access**.
-* **Why are some sensors missing on my phone?**
+- **Why are some sensors missing on my phone?**
   SysCast only displays sensors that are actively checked (`✔️`) inside MSI Afterburner's *Monitoring* settings. Open Afterburner, enable the sensor, and it will appear automatically.
 </details>
 
