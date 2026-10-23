@@ -1,6 +1,13 @@
 <div align="center">
 
-# ⚡ SysCast Telemetry
+<pre>
+███████╗██╗   ██╗███████╗ ██████╗ █████╗ ███████╗████████╗
+██╔════╝╚██╗ ██╔╝██╔════╝██╔════╝██╔══██╗██╔════╝╚══██╔══╝
+███████╗ ╚████╔╝ ███████╗██║     ███████║███████╗   ██║   
+╚════██║  ╚██╔╝  ╚════██║██║     ██╔══██║╚════██║   ██║   
+███████║   ██║   ███████║╚██████╗██║  ██║███████║   ██║   
+╚══════╝   ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝╚══════╝   ╚═╝   
+</pre>
 **Ultra-low latency PC hardware monitor streamed directly to your mobile browser.**
 
 [![Latest Release](https://img.shields.io/badge/Download-v1.0.0--Beta-b45cff?style=for-the-badge&logo=github)](https://github.com/HusseinWalid48/SysCast/releases/latest)
