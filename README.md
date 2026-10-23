@@ -65,6 +65,22 @@ While the SysCast console window is active, use these physical keyboard shortcut
 ## 🧩 Advanced & Developer Options
 
 <details>
+<summary><b>📡 Telemetry Data Sources (Click to Expand)</b></summary>
+<br>
+
+SysCast extracts hardware metrics directly from memory with absolutely zero overhead. Here is exactly where your dashboard data comes from:
+
+| Metric | Primary Source | Fallback / Note |
+| :--- | :--- | :--- |
+| **FPS & Frametime** | `RTSS` (RivaTuner) | MSI Afterburner (MAHM) |
+| **CPU** *(Usage, Temp, Power)* | `MSI Afterburner` | Direct from Shared Memory |
+| **GPU** *(Usage, Temp, VRAM)* | `MSI Afterburner` | Direct from Shared Memory |
+| **System RAM** | `Windows OS` | Native OS query (Shows total PC usage) |
+| **Dashboard Clock** | `Mobile Browser` | Synced locally to your phone's time |
+
+</details>
+
+<details>
 <summary><b>🛠️ For Developers: Build from Source (Click to Expand)</b></summary>
 <br>
 
